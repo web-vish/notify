@@ -1,0 +1,31 @@
+.notifyCntr {
+    
+}
+.notifyTrigger {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+
+}
+.notifyContent {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 300px;
+    border: 1px solid #137dfe;
+
+    &>div {
+        padding: 10px;
+        background-color: #137dfe75;
+        border-bottom: 1px solid #fff;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #137dfe;
+        }
+
+        &:last-child {
+            border: none;
+        }
+    }
+}
